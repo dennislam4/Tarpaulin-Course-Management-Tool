@@ -1,4 +1,4 @@
-Tarpaulin REST API
+# Tarpaulin REST API
 
 Tarpaulin is a REST API built using Flask that provides functionality for managing users, avatars, and courses. It includes authentication with Auth0, role-based access control, and integration with Google Cloud services.
 Features
@@ -19,7 +19,7 @@ Features
     Pagination
         Retrieve courses with limit and offset parameters for efficient navigation.
 
-Technologies Used
+# Technologies Used
 
     Backend: Flask
     Authentication: Auth0 with JWT
@@ -27,12 +27,12 @@ Technologies Used
     Database: Google Cloud Datastore
     Programming Language: Python
 
-Endpoints
-General
+# Endpoints
+# General
 
     GET / - Welcome message for the API.
 
-User Endpoints
+# User Endpoints
 
     GET /users - Get all users.
     GET /users/<id> - Retrieve a specific user's information.
@@ -41,7 +41,7 @@ User Endpoints
     GET /users/<id>/avatar - Retrieve a user's avatar.
     DELETE /users/<id>/avatar - Delete a user's avatar.
 
-Course Endpoints
+# Course Endpoints
 
     POST /courses - Create a new course.
     GET /courses - Retrieve all courses with pagination.
@@ -51,14 +51,14 @@ Course Endpoints
     PUT /courses/<id>/students - Manage course enrollment.
     GET /courses/<id>/students - Retrieve students enrolled in a course.
 
-Setup
+# Setup
 
     Clone the repository:
 
 git clone https://github.com/yourusername/tarpaulin-api.git
 cd tarpaulin-api
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 
@@ -70,7 +70,7 @@ Run the application:
 
     Access the API: Visit http://127.0.0.1:8080/ in your browser or use a tool like Postman.
 
-Error Codes
+# Error Codes
 
     401: Unauthorized ({'Error': 'Unauthorized'})
     403: Forbidden ({'Error': "You don't have permission on this resource"})
