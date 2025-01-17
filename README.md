@@ -56,12 +56,18 @@ Tarpaulin is a REST API built using Flask that provides functionality for managi
    ```bash
    git clone https://github.com/yourusername/tarpaulin-api.git
    cd tarpaulin-api
-2. **Install dependencies**
-     '''bash
-     pip innstall -r requirements.txt
-3. **Set  up environmennt variables: Create a .env file and add your Auth0 annd Google Cloud Credentials
-4. Run the application
-   '''bash
+2. **Install dependencies**  
+     ```bash
+     pip install -r requirements.txt
+3. **Set up environmennt variables: Create a .env file and add your Auth0 annd Google Cloud Credentials
+     Example .env file:
+   ```
+   CLIENT_ID=your_client_id
+   CLIENT_SECRET=your_client_secret
+   DOMAIN=your_auth0_domain
+   PHOTO_BUCKET=your_google_cloud_bucket
+5. Run the application
+   ```bash
      python main.py
-5. Access the API usinnng local IP in browser http://127.0.0.1:8080/
+6. Access the API usinnng local IP in browser http://127.0.0.1:8080/
 
