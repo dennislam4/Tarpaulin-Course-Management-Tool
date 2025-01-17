@@ -1,12 +1,12 @@
 # Tarpaulin REST API
 
 Tarpaulin is a REST API built using Flask that provides functionality for managing users, avatars, and courses. It includes authentication with Auth0, role-based access control, and integration with Google Cloud services.
-Features
 
-    User Management
-        Add, retrieve, and update user information.
-        Handle user avatars with Google Cloud Storage.
-        Role-based access control for admins, instructors, and students.
+# Features
+## User Management
+## Add, retrieve, and update user information.
+## Handle user avatars with Google Cloud Storage.
+## Role-based access control for admins, instructors, and students.
 
     Course Management
         Create, update, and delete courses.
