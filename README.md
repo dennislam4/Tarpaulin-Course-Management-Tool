@@ -60,7 +60,9 @@ Tarpaulin is a REST API built using Flask that provides functionality for managi
      ```bash
      pip install -r requirements.txt
 3. **Set up environmennt variables: Create a .env file and add your Auth0 annd Google Cloud Credentials
-     ***Example .env file:***
+
+   ***Example .env file:***
+   
    ```
    CLIENT_ID=your_client_id
    CLIENT_SECRET=your_client_secret
